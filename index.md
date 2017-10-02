@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+# Projekt z aplikacji mobilnych
+Zespoły projektowe powinny składać się z trzech członków (A, B i C), z jasno wytyczoną odpowiedzialnością za elementy projektu.
 
-You can use the [editor on GitHub](https://github.com/aplikacjemobilne/aplikacjemobilne.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+### Odpowiedzialność członków zespołu
+**A** — *lider projektu* Opracowanie modelu danych, dokumentacja interfejsu programistycznego oraz prototypowanie interfejsów użytkownika.
+**B** — Implementacja serwerowej części systemu i opracowanie jej testów jednostkowych.
+**C** — Implementacja i dokumentacja mobilnej części systemu .
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Kroki milowe projektu
+1. Deklaracja tematyki projektu (strona A4 opisu) i przedłożenie modelu danych (w formie schematu relacyjnej bazy danych).
+2. Przedłożenie dokumentacji interfejsu programistycznego (przykładowo w narzędziu [Apiary | Platform for API Design, Development & Documentation](https://apiary.io)).
+3. Udostępnienie i prezentacja (w postaci testów jednostkowych) implementacji serwerowej części systemu.
+4. Przedłożenie prototypów (przykładowo w formie Wireframes) widoków aplikacji.
+5. Prezentacja finalnego systemu.
 
-### Markdown
+### Kształt projektu
+Projekt składa się z trzech części:
+1. Aplikacji serwerowej, pozbawionej graficznego interfejsu użytkownika, skomunikowanej z bazą danych i udostępniającą interfejs programistyczny (API), zrealizowany w architekturze REST, uzupełniony o testy jednostkowe, weryfikujące poprawność implementacji. Na wykładzie i laboratoriach przedstawię to na przykładzie frameworku Ruby on Rails.
+2. Aplikacji mobilnej, skomunikowanej z aplikacją serwerową za pośrednictwem interfejsu programistycznego. Na wykładzie i laboratoriach przedstawię to na przykładzie Android SDK.
+3. Dokumentacji projektowej, na którą składa się:
+	- krótki opis projektu, 
+	- schemat modelu bazy danych, 
+	- dokumentacja interfejsu programistycznego (lista wszystkich zasobów, ścieżek dostępu, stosowanych parametrów i reprezentacji danych),
+	- prototypy widoków,
+	- dokumentacji aplikacji mobilnej (wygenerowany z kodu źródłowego opis wszystkich zaimplementowanych klas).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/aplikacjemobilne/aplikacjemobilne.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Dodatkowe elementy oceniania
+- poprawność autentykacji użytkowników
+- poprawność projektu interfejsu programistycznego w architekturze REST
+- estetyka interfejsu,
+- responsywność interfejsu użytkownika (przystosowanie do różnych rozdzielczości i orientacji ekranu urządzenia),
+- **bespośrednia komunikacja pomiędzy aplikacją mobilną a znajdującą się na serwerze bazą danych skutkuje natychmiastową i bezwzględną oceną niedostateczną**
