@@ -1,1 +1,1 @@
-- [Projekt z aplikacji mobilnych](projekt)
+- [Projekt z aplikacji mobilnych](projekt.html)
