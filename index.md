@@ -1,1 +1,2 @@
 - [Projekt z aplikacji mobilnych](projekt.html)
+- [Podręcznik do laboratorium i projektu](https://www.gitbook.com/book/xehivs/aplikacje-mobilne/details)
